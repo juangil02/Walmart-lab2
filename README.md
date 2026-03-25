@@ -45,5 +45,7 @@ Implementa Calculator y sirve como molde para cualquier tipo de vinculación lab
 9. Clases de Contrato Específicas (Especialización y Polimorfismo)
 Estas clases heredan de Contract y sobreescriben los métodos de cálculo para reflejar la ley vigente:
 ·         LaborContract: Para empleados mensuales. Aplica deducciones del 8% (salud y pensión) y suma el auxilio de transporte si el sueldo es inferior a 2 salarios mínimos.
+
 ·         ServiceContract: Para trabajadores independientes. Implementa el cálculo del IBC al 40% y aplica una retención de seguridad social del 28.5% sobre dicha base.
+
 ·         HourlyContract: Gestión de trabajo por horas. Incluye lógica compleja para Extras Diurnas (1.25), Nocturnas (1.75) y una bonificación legal de vacaciones (4.17%).
